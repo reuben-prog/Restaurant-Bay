@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Restaurant Bay</title>
+    <meta name="description" content="View the menu at Restaurant Bay.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar fade-in">
+        <a href="index.html" class="logo">RESTAURANT BAY</a>
+        <nav class="nav-links">
+            <a href="index.html#about">ABOUT</a>
+            <a href="reservations.html">RESERVATIONS</a>
+            <a href="menu.html">MENU</a>
+            <a href="private-events.html">PRIVATE EVENTS</a>
+            <a href="vouchers.html">GIFT CARDS</a>
+        </nav>
+    </header>
+
+    <main style="padding-top: 200px; min-height: 80vh;">
+        <section id="menu" class="single-column fade-in-up" style="padding-top: 2rem; padding-bottom: 4rem;">
+            <div class="text-block">
+                <h2>Our Menu</h2>
+                <p>We offer both a refined brunch service and an elegant dinner service. Our cuisine is modern Australian, with a deep focus on showcasing the finest seasonal and Tasmanian produce.</p>
+                <p>Our menus are guided by the seasons and the close relationships we hold with our local farmers and purveyors. We invite you to explore our current offerings.</p>
+                
+                <img src="images/menu-photo.jpg" alt="Restaurant Bay Menu Details" class="landscape-img fade-in-up" style="margin-top: 4rem; margin-bottom: 2rem; border-radius: 4px;">
+
+                <div class="button-group" style="margin-top: 3rem; display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="Bay%20Brunch%20Website.pdf" target="_blank" class="btn">Brunch Menu</a>
+                    <a href="#" onclick="event.preventDefault(); this.textContent='Coming Soon';" class="btn">Dinner Menu</a>
+                    <a href="#" onclick="event.preventDefault(); this.textContent='Coming Soon';" class="btn">Drinks Menu</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="footer fade-in-up">
+        <div class="footer-minimal">
+            <nav class="footer-nav">
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://www.instagram.com/bay_by_abundance/" target="_blank">Instagram</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Hours</strong></p>
+                <p>Brunch: 7 Days, 8:00am — 2:00pm<br>
+                Dinner: Coming Soon</p>
+            </div>
+            <p>31 Cambridge Road, Bellerive, 7018<br>
+            ABN 14167808371</p>
+            <p style="margin-top: 4rem; font-size: 0.85rem; opacity: 0.7; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6;">Restaurant Bay respectfully acknowledges the Mumirimina people as the Traditional Owners of the land on which we gather and operate. We pay our respects to Elders past, present, and emerging.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
