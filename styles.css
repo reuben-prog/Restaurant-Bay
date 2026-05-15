@@ -431,9 +431,23 @@ select.form-control option {
         gap: 2rem;
     }
 
+    .navbar {
+        padding: 1.5rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+    }
+
     .nav-links {
-        gap: 1.5rem;
+        gap: 0.8rem 1.2rem;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
     }
 }
