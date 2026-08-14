@@ -78,10 +78,11 @@ p {
 }
 
 .nav-links a {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     font-weight: 400;
+    padding: 0.5rem;
 }
 
 .nav-links a::after {
@@ -495,13 +496,14 @@ select.form-control option {
     }
 
     .nav-links {
-        gap: 0.8rem 1.2rem;
+        gap: 1rem 1.2rem;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .nav-links a {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
         letter-spacing: 0.1em;
+        padding: 0.5rem;
     }
 }
